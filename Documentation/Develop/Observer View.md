@@ -37,7 +37,7 @@ NRSDK's observer view allows users to share their mixed reality experience with 
     * [ARCore compatible device](https://developers.google.com/ar/discover/supported-devices) 
  
 ### Network Synchronization
- All network synchronization is based on NetworkBehaviour.  See `CameraCaptureController.cs` , located in `Assets > NRKernal > Demos > Sharring > Scripts > TestNetBehaviour` for an example on how to realize your NetworkBehaviour. 
+ All network synchronization is based on NetworkBehaviour.  See `CameraCaptureController.cs` , located in `Assets > NRSDK > Demos > Sharring > Scripts > TestNetBehaviour` for an example on how to realize your NetworkBehaviour. 
 
 Your own NetworkBehaviour class must inherit the NetworkBehaviour base class.
 
@@ -62,7 +62,7 @@ Your own NetworkBehaviour class must inherit the NetworkBehaviour base class.
 
 ### Coordinate Alignment
 
-See `UpdateWorldOrigin.cs` , located in `Assets > NRKernal > Scripts > Utility `  You can use UpdateWorldOrigin to align the coordinate of your detected image as below:
+See `UpdateWorldOrigin.cs` , located in `Assets > NRSDK > Scripts > Utility `  You can use UpdateWorldOrigin to align the coordinate of your detected image as below:
  ~~~c#
    UpdateWorldOrigin.ResetWorldOrigin(position, rotation);
 ~~~

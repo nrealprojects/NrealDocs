@@ -45,7 +45,7 @@ Create a new project in Unity.
 > Need help setting up? Try our [Quickstart for Android Unity](/develop/unity/android-quickstart) tutorial.
 
 Before you build the app, make sure you include the tracking image scene located in 
- `Assets > NRKernal > Demos > TrackingImage > Scenes `
+ `Assets > NRSDK > Demos > ImageTracking `
 
 Make sure your Nreal computing unit is connected to your PC before clicking Build and Run. Unity builds your project into an Android APK, which will be installed onto the computing unit. The app can then be launched once you plug Nreal Light glasses into the computing unit.
 
@@ -67,7 +67,7 @@ You can click 'x' to delete items.
 
 ### Set the Database File
 
-* In the Project window, go to `Assets/NRInternal/` and open NRKernalSessionConfig.
+* In the Project window, go to `Assets/NRSDK/` and open NRKernalSessionConfig.
 
 * In the Inspector window, click the box next to Tracking Image Database and select the database file you created.
 
@@ -77,7 +77,7 @@ You can click 'x' to delete items.
 
 ### Get Tracked Image
 
-See `MarkerDetecter.cs` , located in `Assets > NRKernal > Demos > TrackingImage > Scripts` for an example on how to get the trackables：
+See `MarkerDetecter.cs` , located in `Assets > NRSDK > Demos > TrackingImage > Scripts` for an example on how to get the trackables：
 
 ~~~c#
  NRSession.GetTrackables<NRTrackableImage>(m_NewMarkers, TrackableQueryFilter.New);

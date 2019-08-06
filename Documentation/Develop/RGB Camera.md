@@ -4,7 +4,7 @@ Follow this guide to learn how to build a sample app to retrieve RGB camera data
 
 ## Open the Sample Scene
 * In the Unity Project window, you can find the **CameraCaptureDemo** sample in:
-    `Assets > NRKernal >Demos > CameraCapture > Scenes > CameraCaptureDemo`.
+    `Assets > NRSDK >Demos > RGBCamera`.
 
 ## Build and Run the Sample App
 * Enable developer options and USB debugging on your Nreal Light computing unit. [Android Debug Bridge (adb)](https://developer.android.com/studio/command-line/adb) is enabled as default. 
@@ -13,7 +13,7 @@ Follow this guide to learn how to build a sample app to retrieve RGB camera data
 
 * In the Unity **Build Settings** window, click **Build and Run**.
 
-> See `CameraCaptureController.cs` , located in `Assets > NRKernal > Demos > CameraCapture > Scripts` for an example on how to get the texture of RGB Camera. 
+> See `CameraCaptureController.cs` , located in `Assets > NRSDK > Demos > CameraCapture > Scripts` for an example on how to get the texture of RGB Camera. 
 
 * Initialize NRCameraCapture in MonoBehaviour and configure it as follows:
     ~~~c#
@@ -26,10 +26,9 @@ Follow this guide to learn how to build a sample app to retrieve RGB camera data
     ~~~
 * Implement your callback function to get the texture in OnFirstFramReady.
     ~~~c#
-    private void OnFirstFramReady()
+    private void OnFirstFrameReady()
     {
-        CaptureImageLeft.texture = CameraCapture.Texture;
-        CaptureImageRight.texture = CameraCapture.Texture;
+        CaptureImage.texture = CameraCapture.Texture;
     }
     ~~~   
     

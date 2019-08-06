@@ -48,7 +48,7 @@ This quickstart guide will help you set up your development environment and test
 
 ## Hello MR - Your First Sample App
 
-* Find the **HelloMR** sample app in the Unity Project window by selecting `Assets > NRKernal > Examples > HelloMR > Scenes > HelloMR.`
+* Find the **HelloMR** sample app in the Unity Project window by selecting `Assets > NRSDK > Demos > HelloMR.`
     
     ![](https://codimd.s3.shivering-isles.com/demo/uploads/upload_2471f9ce9b10f5515918b2ea8cb96ad5.png)
 
@@ -66,12 +66,10 @@ Setting                         |                            Value
 `Player Settings > Resolution and Presentation > Default Orientation` | **"Landscape Left"**  when using an Nreal Light computing unit , **"Portrait"**  when using a smart phone 
 `Player Settings > Other Settings > Package Name`   |  Create a unique app ID using a Java package name format. For example, use **com.nreal.helloMR**    
 `Player Settings > Other Settings > Multithreaded Rendering` | Disable  
-`Player Settings > Other Settings > Auto Graphics API` | OpenGLES3 
 `Player Settings > Other Settings > Minimum API Level` |  Android 4.4 or higher 
 `Player Settings > Other Settings > Target API Level`  | Android 7.0 or higher
 `Player Settings > Other Settings > Write Permission`  | External(SDCard)
 `Project Settings > Quality > V Sync Count`   |  Don't Sync
-Build System   |  Gradle  |
 
 
 ## Connect to Nreal Device 
