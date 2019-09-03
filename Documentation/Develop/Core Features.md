@@ -8,7 +8,7 @@ Nreal glasses use a variety of sensors and cameras to build a sophisticated unde
 
 ![](https://nreal-public.nreal.ai/developer/img/corefeature01.gif)
 
-* **6Dof Tracking** technology uses the two SLAM cameras located on both sides of the Nreal glasses to identify feature points, tracking how these points move over time. Combining the movement of these points with readings from the glasses' IMU sensors, NRSDK accurately tracks both the position and orientation of the glasses as it moves through space. 6Dof tracking also provides developers with real-time mapping constructions and 3D point clouds, giving the applications information on the physical structures of the environment.
+* **6DoF Tracking** technology uses the two SLAM cameras located on both sides of the Nreal glasses to identify feature points, tracking how these points move over time. Combining the movement of these points with readings from the glasses' IMU sensors, NRSDK accurately tracks both the position and orientation of the glasses as it moves through space. 6DoF tracking also provides developers with real-time mapping constructions and 3D point clouds, giving the applications information on the physical structures of the environment.
 
 ![](https://nreal-public.nreal.ai/developer/img/corefeature02.gif)
 
@@ -34,11 +34,11 @@ Instead of polling tracking data at the very beginning of each frame to render t
 
 
 
-* **Nreal Light Controller (3Dof)**
-A light 3Dof controller to interact with the virtual objects in a natural and intuitive way.
+* **Nreal Light Controller (3DoF)**
+A light 3DoF controller to interact with the virtual objects in a natural and intuitive way.
 
-* **Nreal Phone Controller (3Dof)** (Currently is not available for you to develop apps)
-An Android mobile phone can serve as a 3Dof controller when connected to Nreal glasses. The touchscreen supports gestures and all interactions mirror interactions on the Nreal controller.
+* **Nreal Phone Controller (3DoF)** (Currently is not available for you to develop apps)
+An Android mobile phone can serve as a 3DoF controller when connected to Nreal glasses. The touchscreen supports gestures and all interactions mirror interactions on the Nreal controller.
 
 
 For more interaction models,  please refer to the [Design Guide](/design/interacting).

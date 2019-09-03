@@ -21,7 +21,7 @@ Currently, only the **Nreal Light controller** (available in the Nreal Developer
 
 | Controller Features | Description |
 | -------- | -------- |
-| 3Dof Tracking | 3 degrees of freedom |
+| 3DoF Tracking | 3 degrees of freedom |
 | Touchpad | **Press** = Tigger Button. Can detect touching, swiping and clicking. Customizable for your app, e.g. scrolling. |
 | App Button | **Press** to recenter your controller. **Press and hold** can be customized for your app, e.g. opening an in-app menu or performing a special action. |
 | Home Button | **Press and hold** to open Nreal launcher. **Press** can be customized for in-app action, e.g. return to the previous step. |
@@ -73,7 +73,7 @@ Magnetically attach to the Nreal Light computing unit. Battery power will be sha
 
 | Controller Features | Description |
 | -------- | -------- |
-| 3Dof Tracking | 3 degrees of freedom |
+| 3DoF Tracking | 3 degrees of freedom |
 | Touchpad | **Press** = Trigger Button. Can detect touching, swiping and clicking. Customizable for your app, e.g. scrolling. |
 | App Button | **Press** to recenter your controller. **Press and hold** can be customized for your app, e.g. opening an in-app menu or performing a special action. |
 | Home Button | **Press and hold** to open Nreal launcher.  **Press** can be customized for in-app action, e.g. return to the previous step.|
@@ -135,7 +135,7 @@ void Update()
         //returns true if a Trigger button was released this frame
         NRInput.GetButtonUp(ControllerButton.TRIGGER);
 
-        //returns Vector3.zero if controller is 3dof, otherwise returns the position of the domain controller
+        //returns Vector3.zero if controller is 3DoF, otherwise returns the position of the domain controller
         NRInput.GetPosition();
 
         //returns the rotation of the domain controller

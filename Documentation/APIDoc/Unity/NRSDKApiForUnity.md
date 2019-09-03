@@ -160,8 +160,8 @@ Device Tracking State.
 
  Values                         | Descriptions                                
 --------------------------------|---------------------------------------------
-MODE_6DOF            | 6Dof mode.
-MODE_3DOF            | 3Dof mode, only rotation.
+MODE_6DoF            | 6DoF mode.
+MODE_3DoF            | 3DoF mode, only rotation.
 
 Device Tracking State.
 
