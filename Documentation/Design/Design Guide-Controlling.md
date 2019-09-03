@@ -1,6 +1,6 @@
 ## Controlling
 
-This section will explore mediums users can use to convert their thoughts and actions (input) into the mixed-reality world. 
+This section will explore mediums users can use to convert their thoughts and actions (input) into the mixed-reality world.
 
 As of the current version, there are two 3 Degree-of-Freedom hand-held controllers as well as the 6 Degree-of-Freedom head position gaze. Other means of controlling, like 6DoF controllers, voice and hand gesture input are being actively worked on and will be made available in the near future.
 
@@ -10,16 +10,16 @@ Controlling with a light and minimal disk shaped controller that measures self r
 
 #### Features
 
-![Nreal Controller](https://codimd.s3.shivering-isles.com/demo/uploads/upload_c57459f1ad417241a66a53b3e4af3498.png)
+![Nreal Controller](https://nreal-public.nreal.ai/developer/img/controlling02.jpg)
 
 * 3 DoF (rotation) hand tracking
-  
+
   * Suitable for most ray based selection and manipulation when the ray center does not have to be controlled by hand.
-  
+
 * 6 DoF head tracking-based ray center
-  
+
   * You can translate and rotate the controller's ray center by moving your head.
-  
+
 * Pressable buttons
   | Button        | Action                          | Example Use Case                                          |
   | ------------- | ------------------------------- | --------------------------------------------------------- |
@@ -55,7 +55,7 @@ Controlling with a light and minimal disk shaped controller that measures self r
 * Common visual feedback
 
   - on hover - possible feedbacks include subject enlargement, change in color, animation from static,  and bounding box.
-  - on select - possible feedbacks include subject pulsates in size, brightness, and bounding box color. 
+  - on select - possible feedbacks include subject pulsates in size, brightness, and bounding box color.
 
 * Common auditory feedback
 
@@ -71,7 +71,7 @@ You can use the phone as a 3 DoF controller that is essentially identical to the
 
 #### Features
 
-![Nreal Phone Controller](https://codimd.s3.shivering-isles.com/demo/uploads/upload_b0cfd3781d611a53063d89fa49afc472.png)
+![Nreal Phone Controller](https://nreal-public.nreal.ai/developer/img/controlling01.jpg)
 
 - 3 DoF (rotation) hand tracking
 
@@ -113,7 +113,7 @@ You can use the phone as a 3 DoF controller that is essentially identical to the
 - Common visual feedback
 
   - on hover - possible feedbacks include subject enlargement, change in color, animation from static, and bounding box.
-  - on select - possible feedbacks include subject pulsates in size, brightness, and bounding box color. 
+  - on select - possible feedbacks include subject pulsates in size, brightness, and bounding box color.
 
 - Common auditory feedback
 
@@ -135,7 +135,7 @@ Controlling with the position and direction that the user is facing. It is best 
 * 6 DoF Head Tracking with vision center
   * Suitable for targeting during extremely light interactions
   * Suitable for targeting when both hands are not available
-  
+
 
 #### Feedbacks
 

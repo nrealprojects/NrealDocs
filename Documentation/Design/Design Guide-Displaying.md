@@ -1,7 +1,7 @@
 # Design Guide
 
-A quick and simple guide aimed at providing fundamental design knowledge as well as establishing some common standards for user interaction in Nreal mixed-reality apps. 
-The guide is broken down into four principle sections: [Displaying](/design/displaying), [Controlling](/design/Controlling), [Interacting](design/interacting) and [Navigating](design/navigating).
+A quick and simple guide aimed at providing fundamental design knowledge as well as establishing some common standards for user interaction in Nreal mixed-reality apps.
+The guide is broken down into four principle sections: [Displaying](/design/displaying), [Controlling](/design/controlling), [Interacting](/design/interacting) and [Navigating](/design/navigating).
 
 <br />
 
@@ -11,7 +11,7 @@ This section explores ways of conveying visual information within the mixed-real
 
 ### Sizing
 
-Object sizing can also be complicated in MR. A good way to think about this is by thinking about objects in real life. When working with objects in MR, always keep a reference on their size and distance from the camera with real life objects. For example, an apple is on average 8 centimeters in diameter and your hand resting on a table is usually around 40 centimeters away. 
+Object sizing can also be complicated in MR. A good way to think about this is by thinking about objects in real life. When working with objects in MR, always keep a reference on their size and distance from the camera with real life objects. For example, an apple is on average 8 centimeters in diameter and your hand resting on a table is usually around 40 centimeters away.
 
 ### Colors
 
@@ -82,11 +82,11 @@ By wrapping the plane table horizontally around the user, one essentially ends u
 
 #### Sphere Arrangement
 
-When objects are not necessarily grouped by logic, one can use a 3D ball model for organization. The ball should be around five meters in diameter and two meters away from the user. It can spin freely on the angle the user has last released their ray or finger on. This method of object collection gives the users greater freedom and is more complex three-dimensionally. 
+When objects are not necessarily grouped by logic, one can use a 3D ball model for organization. The ball should be around five meters in diameter and two meters away from the user. It can spin freely on the angle the user has last released their ray or finger on. This method of object collection gives the users greater freedom and is more complex three-dimensionally.
 
 ### Clipping Objects
 
-Nothing distracts the user from the MR world like clipping. Although Nreal has a forced clipping distance that is only a few centimeters away from the camera, clipping is still inevitable in some situations. 
+Nothing distracts the user from the MR world like clipping. Although Nreal has a forced clipping distance that is only a few centimeters away from the camera, clipping is still inevitable in some situations.
 
 There are ways to smooth out the effects of clipping. For example, instead of the sharp clipping lines on the force clipping area, one can use effects like disintegrating pixels that start fading before the clipping lines and disappear steadily.
 

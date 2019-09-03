@@ -1,13 +1,13 @@
 # Image Tracking
 ## Introduction
-NRSDK's Image Tracking capability helps you build AR apps that can respond to and follow images in the natural environment. These can include books, signs, posters, or logos. 
+NRSDK's Image Tracking capability helps you build AR apps that can respond to and follow images in the natural environment. These can include books, signs, posters, or logos.
 
-A set of images can be uploaded to the database as pre-trained references. These images can then be tracked by NRSDK in the physical world while the transformation of the images are updated during the session. 
+A set of images can be uploaded to the database as pre-trained references. These images can then be tracked by NRSDK in the physical world while the transformation of the images are updated during the session.
 
 
 ## Capabilities
 
-* NRSDK can detect and track images that are fixed in place, such as a painting on a wall or a book on the table. It can also track moving images, such as a rotating billboard or a poster held by someone walking around. 
+* NRSDK can detect and track images that are fixed in place, such as a painting on a wall or a book on the table. It can also track moving images, such as a rotating billboard or a poster held by someone walking around.
 
 * After NRSDK begins tracking an image, it provides estimations for position, orientation, and physical size. The image's transformation estimates are updated continuously. Its accuracy increases as NRSDK gathers more data from different angles.
 
@@ -15,7 +15,7 @@ A set of images can be uploaded to the database as pre-trained references. These
 
 ## Requirements
 
-### Image Selection Checklist 
+### Image Selection Checklist
 
 - Reference images should be in JPEG format, grayscale or RGB color, and have a dpi value of 150. The dimensions of printed reference images should be less than 1m^2.
 
@@ -26,14 +26,14 @@ A set of images can be uploaded to the database as pre-trained references. These
 
 #### Image Tracking Condition Requirement
 
-- Images printed with dull surfaces perform better than glossy ones due to reduced light reflections. 
+- Images printed with dull surfaces perform better than glossy ones due to reduced light reflections.
 - The quickest way to initialize image tracking is to view the image at a slight angle while keeping the image flat and undistorted.
 - The NRImageTracking Tool gives a score between 0 and 100 for each uploaded reference image. We recommend using images with a score of 65 and above. Using an image with a score lower than 40 will result in poor tracking quality.
 
 
 #### Examples of good images and bad images:
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/upload_d6c30257eb1f81d810aa9b9091d481cf.png)
+![](https://nreal-public.nreal.ai/developer/img/imgtrack01.jpg)
 
 
 ## Image Tracking Tutorial
@@ -44,14 +44,15 @@ Learn how to use the Image Tracking feature in your own apps.
 Create a new project in Unity.
 > Need help setting up? Try our [Quickstart for Android Unity](/develop/unity/android-quickstart) tutorial.
 
-Before you build the app, make sure you include the tracking image scene located in 
+Before you build the app, make sure you include the tracking image scene located in
  `Assets > NRSDK > Demos > ImageTracking `
 
 Make sure your Nreal computing unit is connected to your PC before clicking Build and Run. Unity builds your project into an Android APK, which will be installed onto the computing unit. The app can then be launched once you plug Nreal Light glasses into the computing unit.
 
-As you move your Nreal Light glasses, the app automatically detects and tracks images from the set of reference images. 
+As you move your Nreal Light glasses, the app automatically detects and tracks images from the set of reference images.
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/upload_4534486712efffce0e6f129e036c7cbe.png)
+![](https://nreal-public.nreal.ai/developer/img/imgtrack02.jpg)
+
 
 
 
@@ -63,7 +64,7 @@ The images in the database will be shown in the Inspector window along with imag
 The dimensions of the physical image (in meters) for each uploaded reference image should be the same as the dimension shows above.
 
 
-You can click 'x' to delete items. 
+You can click 'x' to delete items.
 
 ### Set the Database File
 
@@ -71,7 +72,7 @@ You can click 'x' to delete items.
 
 * In the Inspector window, click the box next to Tracking Image Database and select the database file you created.
 
-    ![](https://codimd.s3.shivering-isles.com/demo/uploads/upload_32a4fde8f59daf7b1ced9930e0ee05d7.png)
+    ![](https://nreal-public.nreal.ai/developer/img/imgtrack03.jpg)
 
 
 
