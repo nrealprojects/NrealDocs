@@ -15,7 +15,7 @@ This quickstart guide will help you set up your development environment and test
 
 * A pair of Nreal Light glasses
 
-> Don't have an Nreal device? Sign up for the [Nreal Developer Kit](/apply)! A **Testing Tool** will be released with the next version of NRSDK to pilot Nreal app functions without Nreal Light glasses and computing unit.
+> Don't have an Nreal device? Sign up for the [Nreal Developer Kit](/apply)! Or try **Emulator**  to pilot Nreal app functions without Nreal Light glasses and computing unit.
 
 * A USB-C cable to connect the Nreal computing unit to your PC 
 
@@ -49,7 +49,7 @@ This quickstart guide will help you set up your development environment and test
 ## Hello MR - Your First Sample App
 
 * Find the **HelloMR** sample app in the Unity Project window by selecting `Assets > NRSDK > Demos > HelloMR.`
-    
+  
     ![](https://codimd.s3.shivering-isles.com/demo/uploads/upload_2471f9ce9b10f5515918b2ea8cb96ad5.png)
 
 

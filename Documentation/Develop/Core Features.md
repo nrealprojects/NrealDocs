@@ -45,9 +45,9 @@ For more interaction models,  please refer to the [Design Guide](/design/interac
 
 ## Developer Tools
 
-Developer Tools, such as  **Testing Tool** and **Observer View**, are something we designed especially for you. 
+Developer Tools, such as  **Emulator** and **Observer View**, are something we designed especially for you. 
 
-* The **Testing Tool** (will be available in next NRSDK version) is like an emulator running under the Unity Editor play mode. Inputs that would usually be read by the sensors on Nreal glasses are instead simulated using the keyboard, mouse, or smartphone. It comes with NRSDK and allows you to test applications without having real Nreal devices.
+* The **Emulator** is like an testing tool under the Unity Editor play mode. Inputs that would usually be read by the sensors on Nreal glasses are instead simulated using the keyboard, mouse, or smartphone. It comes with NRSDK and allows you to test applications without having real Nreal devices.
 
 * **Observer View** allows you to share your creations with others by allowing them to see a Nreal Light user's world on a 2D phone or tablet screen, which is synchronized by a marker. 
 
