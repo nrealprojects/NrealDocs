@@ -26,10 +26,10 @@ This quickstart guide will help you set up your development environment and test
 
 * [Unity 2018.2.X](https://unity3d.com/get-unity/download) with Android Build Support
 
-* Download [NRSDK for Unity 1.0.0](/download)
+* Download [NRSDK for Unity 1.1](/download)
 
 
-  The SDK is downloaded as `NRSDKForUnity_1.0.0.unitypackage`
+  The SDK is downloaded as `NRSDKForUnity_1.1.unitypackage`
 
 * Android SDK 7.0 (API Level 24) or later, installed using the SDK Manager in [Android Studio](https://developer.android.com/studio)
 
@@ -42,7 +42,7 @@ This quickstart guide will help you set up your development environment and test
 * Import NRSDK for Unity
     * Select Assets > Import Package > Custom Package.
 
-    * Select the `NRSDKForUnity_1.0.0.unitypackage` that you downloaded.
+    * Select the `NRSDKForUnity_1.1.unitypackage` that you downloaded.
     * In the **Importing** Package dialog, make sure that all package options are selected and click **Import**.
 
 
